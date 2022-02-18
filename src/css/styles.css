@@ -21,6 +21,7 @@ h4 {
 
 header {
     display: flex;
+<<<<<<< HEAD
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -44,4 +45,6 @@ header ul {
 
 header li {
     margin-right: 1.2rem;
+=======
+>>>>>>> eaecabf8c0256f87591c77e38435dfc8dba393dd
 }
