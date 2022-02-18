@@ -18,3 +18,30 @@ h3 {
 h4 {
     font-size: 1.2rem;
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 70px;
+    background-color: grey;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.headerimg {
+    max-height: 70px;
+}
+
+header ul {
+    display: flex;
+    flex: row wrap;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+header li {
+    margin-right: 1.2rem;
+}
